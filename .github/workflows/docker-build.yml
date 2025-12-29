@@ -6,6 +6,7 @@ env:
   REGISTRY: ghcr.io
   # github.repository as <account>/<repo>
   IMAGE_NAME: ${{ github.repository }}
+  DOCKERFILE_PATH: ./ubuntu.Dockerfile  # or specify a custom path if the Dockerfile is not in the root
 
 
 jobs:
